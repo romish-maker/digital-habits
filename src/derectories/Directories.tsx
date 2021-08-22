@@ -12,6 +12,13 @@ type DirectoriesType = {
     title: string,
     children?: Array<DirectoriesType>
 }
+type TestType = {
+    name: string
+    secondName: string
+    age: number
+    sex: string
+    style: string
+}
 
 
 const useStyles = makeStyles({
@@ -91,4 +98,6 @@ export const Directories: React.FC = () => {
         </TreeView>
     );
 }
+
+
 
